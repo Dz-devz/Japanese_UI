@@ -2,4 +2,4 @@
 
 ### Japanese Inspired UI for Interior Design E-commerce
 
-Using Tailwind, ViteJS with SASS/SCSS
+Using Tailwind, Vite ReactJS with SASS/SCSS
