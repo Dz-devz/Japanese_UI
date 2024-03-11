@@ -1,0 +1,36 @@
+.photo {
+  padding: 2rem;
+  position: relative;
+  clip-path: polygon(
+    0% 3rem,
+    3rem 0%,
+    100% 0,
+    100% calc(100% - 1.55rem),
+    calc(100% - 1.55rem) 100%,
+    0 100%
+  );
+}
+
+.photo::before,
+.photo::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  aspect-ratio: 1;
+}
+
+.photo::before {
+  background: transparent;
+  left: -2.875rem;
+  top: -2.875rem;
+  rotate: 45deg;
+  box-shadow: 1.25rem 0rem 1rem -1.25rem rgb(0 0 0 / 1);
+}
+
+.photo::after {
+  background: transparent;
+  bottom: -3.5rem;
+  right: -3.5rem;
+  rotate: 45deg;
+  box-shadow: -1.25rem 0rem 1rem -1.25rem rgb(0 0 0 / 1);
+}
