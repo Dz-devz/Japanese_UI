@@ -7,7 +7,11 @@ export default {
     "./components/**/*.{html,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      cursor: {
+        sakura: "url(public/assets/Sakura_Arrow.cur), pointer",
+      },
+    },
     fontFamily: {
       sans: ["Sacramento", "cursive"],
       reenie: ["Reenie Beanie", "cursive"],

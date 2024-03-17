@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-[#ecece8] border-b-2 shadow-xl max-w-[100%] flex items-center justify-around leading-[0] m-0">
+    <header className="bg-[#ecece8] border-b-2 shadow-xl max-w-[100%] flex items-center justify-around leading-[0] m-0 cursor-sakura">
       <h1 className="m-2 font-bold text-left font-reenie text-6xl text-[#ff5576]">
         Utsukushii
       </h1>
