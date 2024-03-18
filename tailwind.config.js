@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       cursor: {
-        sakura: "url(public/assets/Sakura_Arrow.cur), pointer",
+        sakura: "url(assets/Sakura_Arrow.cur), pointer",
       },
     },
     fontFamily: {
