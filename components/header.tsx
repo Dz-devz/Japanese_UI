@@ -8,8 +8,9 @@ export default function Header() {
       </h1>
       <nav>
         <ul className="inline-flex flex-wrap gap-10 text-5xl font-bold p-0 m-0 mr-5 font-reenie">
-          <li>Home</li>
-
+          <Link to="/home">
+            <li>Home</li>
+          </Link>
           <li>Showcase</li>
           <Link to="/about">
             <li>About</li>

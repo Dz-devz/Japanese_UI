@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import About from "../components/About";
 import Header from "../components/Header";
 import Showcase from "../components/Showcase";
@@ -8,8 +8,7 @@ function App() {
     return (
       <section className="bg-[#FFFAFA] h-screen">
         <Header />
-        <Showcase />
-        <About />
+        <Outlet />
       </section>
     );
   };
@@ -19,6 +18,10 @@ function App() {
       path: "/",
       element: <Layout />,
       children: [
+        {
+          path: "/home",
+          element: <Showcase />,
+        },
         {
           path: "/about",
           element: <About />,
