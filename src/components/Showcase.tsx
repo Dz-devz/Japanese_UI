@@ -1,9 +1,9 @@
-import "../src/style/clip.scss";
+import "../style/clip.css";
 
 export default function Showcase() {
   return (
-    <section className="bg-[#F8F7EC] h-screen cursor-sakura">
-      <div className="container flex justify-between mr-auto ml-auto items-center">
+    <section className="bg-[#F8F7EC] h-full cursor-sakura">
+      <div className="container flex justify-between mr-auto ml-auto items-center pb-[4.3rem]">
         <span className="text-9xl font-reenie photo">
           <span className="relative text-black">
             Interior <br /> Design

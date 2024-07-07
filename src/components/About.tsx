@@ -1,8 +1,7 @@
 export default function About() {
   return (
     <>
-      {/* <Outlet /> */}
-      <section className="bg-[#F8F7EC] h-screen cursor-sakura">
+      <section className="bg-[#F8F7EC] h-full cursor-sakura">
         <div className="flex items-center justify-center flex-col w-[50%] mr-auto ml-auto">
           <h2 className="font-reenie text-center text-[6rem]">
             {" "}

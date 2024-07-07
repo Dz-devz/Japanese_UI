@@ -1,14 +1,17 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import About from "../components/About";
-import Header from "../components/Header";
-import Showcase from "../components/Showcase";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Showcase from "./components/Showcase";
 
 function App() {
   const Layout = () => {
     return (
-      <section className="bg-[#FFFAFA] h-screen">
+      <section className="bg-[#F8F7EC] h-full">
         <Header />
         <Outlet />
+        <Footer />
       </section>
     );
   };
@@ -20,6 +23,10 @@ function App() {
       children: [
         {
           path: "/home",
+          element: <Home />,
+        },
+        {
+          path: "/showcase",
           element: <Showcase />,
         },
         {
